@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rik Vory | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="logo">&lt;Rik Vory/&gt;</a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Mobile hamburger button -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="badge">&bull; Available for projects &amp; collaboration</span>
+        <h1 class="hero__title">Hi, I&rsquo;m Vory</h1>
+        <h2 class="hero__subtitle">Information Technology Student &amp; Creative Developer</h2>
+        <p class="hero__desc">
+          I'm passionate about learning, designing, and building digital experiences.
+          I enjoy combining technology with creativity through web development and UI/UX design.
+        </p>
+        <div class="hero__buttons">
+          <a href="#projects" class="btn btn--primary">View My Projects</a>
+          <a href="#contact" class="btn btn--secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <span class="blob blob--peach" aria-hidden="true"></span>
+        <span class="blob blob--blue" aria-hidden="true"></span>
+        <span class="dot dot--1" aria-hidden="true"></span>
+        <span class="dot dot--2" aria-hidden="true"></span>
+        <!-- Replace this placeholder with your own photo at images/profile.jpg -->
+        <img src="images/profile.jpg" alt="Photo of Vory" onerror="this.src='https://placehold.co/440x520/dbeafe/5b8fc7?text=Your+Photo'" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title center">About Me</h2>
+
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            I'm an Information Technology student based in Siem Reap, Cambodia, focused on writing
+            clean code and designing interfaces that feel intuitive to use.
+          </p>
+          <p>
+            I build with HTML, CSS, JavaScript and C++ &mdash; from responsive websites to console
+            applications &mdash; and use Figma to sketch layouts and test how a design should work
+            before I build it.
+          </p>
+          <p>
+            I'm early in my journey, and I enjoy the projects where good design and clean code meet.
+          </p>
+        </div>
+
+        <div class="about__cards">
+          <div class="about-card">
+            <span class="about-card__num">01</span>
+            <h3>Learn</h3>
+            <p>Always exploring new technologies.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card__num">02</span>
+            <h3>Design</h3>
+            <p>Turning ideas into clean and useful interfaces.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card__num">03</span>
+            <h3>Build</h3>
+            <p>Creating projects through code.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card__num">04</span>
+            <h3>Grow</h3>
+            <p>Continuously improving my skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title center">Skills &amp; Tools</h2>
+      <p class="section-subtitle center">What I work with day to day, and how confident I feel with each.</p>
+
+      <h3 class="skills__group-title"><span class="bar"></span>Development</h3>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h4>HTML</h4>
+          <p>Semantic, accessible page structure.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">{ }</div>
+          <h4>CSS</h4>
+          <p>Responsive layouts with Flexbox &amp; Grid.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">JS</div>
+          <h4>JavaScript</h4>
+          <p>DOM, events, and interactive features.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">C++</div>
+          <h4>C++</h4>
+          <p>Console apps, logic, and data handling.</p>
+        </div>
+      </div>
+
+      <h3 class="skills__group-title"><span class="bar"></span>Design</h3>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <div class="skill-icon">&#9673;</div>
+          <h4>UI/UX Design</h4>
+          <p>Wireframes, flows, and usability thinking.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#9670;</div>
+          <h4>Figma</h4>
+          <p>Components, prototypes, and handoff.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">&#9679;</div>
+          <h4>Canva</h4>
+          <p>Quick graphics for posts and slides.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">Ps</div>
+          <h4>Photoshop</h4>
+          <p>Editing, mockups, and image cleanup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title center">Feature Projects</h2>
+      <p class="section-subtitle center">Three things I've built while learning &mdash; one web, one system, one design.</p>
+
+      <div class="projects__grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <!-- Replace with a real screenshot at images/project1.jpg (recommended size: 800x500px) -->
+            <img src="images/project1.png" alt="Screenshot of the Personal Portfolio website" onerror="this.src='https://placehold.co/800x500/dbeafe/5b8fc7?text=Personal+Portfolio+Screenshot'" />
+          </div>
+          <div class="project-card__body">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website built to showcase my skills, projects, and journey in IT, designed and coded from scratch with plain HTML, CSS, and JavaScript.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <!-- Replace with a real screenshot at images/project2.jpg (recommended size: 800x500px) -->
+            <img src="images/project2.png" alt="Screenshot of the Hospital Management System" onerror="this.src='https://placehold.co/800x500/dbeafe/5b8fc7?text=Hospital+Management+System'" />
+          </div>
+          <div class="project-card__body">
+            <h3>Hospital Management System</h3>
+            <p>A C++ console-based system designed to manage doctors, patients, appointments, medical reports, and billing in a single streamlined workflow.</p>
+            <div class="tags">
+              <span class="tag">C++</span>
+              <span class="tag">Code::Blocks</span>
+            </div>
+            
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <!-- Replace with a real screenshot at images/project3.png (recommended size: 800x500px) -->
+            <img src="images/project3.png" alt="Screenshot of the Online Learning Platform UI design" onerror="this.src='https://placehold.co/800x500/dbeafe/5b8fc7?text=Online+Learning+Platform'" />
+          </div>
+          <div class="project-card__body">
+            <h3>Online Learning Platform</h3>
+            <p>A UI/UX concept for an online learning platform, designed in Figma with a focus on clear navigation, readable course layouts, and a friendly student experience.</p>
+            <div class="tags">
+              <span class="tag">UI/UX</span>
+              <span class="tag">Figma</span>
+            </div>
+            
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let&rsquo;s Connect</h2>
+      <p class="section-subtitle">Have a project idea, collaboration, or just want to say hi? I'd love to hear from you.</p>
+
+      <div class="contact__grid">
+        <a href="https://github.com/voryrik" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">&#128187;</span>
+          <div>
+            <h4>GitHub</h4>
+            <p>github.com/voryrik</p>
+          </div>
+        </a>
+
+        <div class="contact-card">
+          <span class="contact-icon">&#128205;</span>
+          <div>
+            <h4>Location</h4>
+            <p>Siem Reap, Cambodia</p>
+          </div>
+        </div>
+
+        <a href="https://www.linkedin.com/in/vory-rik-921972421" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">&#128279;</span>
+          <div>
+            <h4>LinkedIn</h4>
+            <p>linkedin.com/in/vory-rik-921972421</p>
+          </div>
+        </a>
+
+        <a href="mailto:voryrik9@gmail.com" class="contact-card">
+          <span class="contact-icon">&#9993;</span>
+          <div>
+            <h4>Email</h4>
+            <p>voryrik9@gmail.com</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <h3>Rik Vory</h3>
+        <p>Always learning. Always building. Always growing.</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__links">
+        <a href="mailto:voryrik9@gmail.com">Email</a>
+        <a href="https://github.com/voryrik" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/vory-rik-921972421" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Vory Rik. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
